@@ -1,0 +1,237 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cies Resume/CV
+% LaTeX Template
+% Version 1.1 (20/7/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Cies Breijs (cies@kde.nl)
+% https://github.com/cies/resume with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper]{article} % Font size (10-12pt) and paper size (a4paper, letterpaper, legalpaper, etc)
+
+\include{structure} % Include structure.tex which contains packages and document layout definitions
+
+\hyphenation{Some-long-word} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
+
+\begin{document} 
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\maintitle{Himanshu Aggarwal}{August 30, 1997}  % Your name and date of birth or subtitle
+
+\noindent\href{mailto:himanshu.aggarwal@inria.fr}{himanshu.aggarwal@inria.fr}\bull \href{mailto:himanshuaggarwal1997@gmail.com}{himanshuaggarwal1997@gmail.com}\bull \href{https://github.com/man-shu}{GitHub}\bull 
+\href{https://twitter.com/man_shuuu}{Twitter} \bull \href{https://www.linkedin.com/in/himanshu-aggarwal-7160961b6}{Linkedin}\\ 
+21 Rue Bezout\bull Paris, 75014\bull Ile-de-France\bull France 
+
+%------------------------------------------------
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Education} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{Indian Institute of Science Education and Research (IISER) Mohali}
+{\textsc{Punjab, India}} {
+
+\headedsubsection % Job title entry for the current employer
+{Bachelors \& Masters of Science (Mathematical Biology), Dual Degree}
+{2015 -- 2020}
+{\bodytext{Thesis: Statistical modeling and analyses of epidemiological data of malaria in India\\\bull Performance index during thesis year: \textbf{10/10}\\\bull Cumulative performance index: \textbf{8.4/10}}}
+}
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{M.G.N. Public School, Adarsh Nagar, Jalandhar}
+{\textsc{Punjab, India}} {
+
+\headedsubsection % Job title entry for the current employer
+{Higher Secondary School}
+{2013 -- 2015} {\bodytext{Scored 96\% in final exams -- among the 1\% of highest scoring students all over India.}}
+}
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Skills} % Top level section
+
+\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{Programming:}
+{Python, MATLAB, C, JavaScript, R, \LaTeX}
+\inlineheadsection
+{Experiment Design:}
+{Psychopy, expyriment, Psychtoolbox, Presentation}
+\inlineheadsection
+{Neuroimaging and Preprocessing:}
+{3T MRI acquisition, nilearn, FSL, SPM, MNE}
+\inlineheadsection
+{Machine Learning and Statistics:}
+{scikit-learn, numpy, scipy, pandas}
+\inlineheadsection 
+{Spoken Languages:}
+{English, Hindi, Punjabi \textit{(fluent)}, French \textit{(beginner)}.}
+
+
+\spacedhrule{1.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Research Experience} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{https://team.inria.fr/mind/}{Team MIND (ex-Parietal) INRIA Saclay} / \href{https://joliot.cea.fr/drf/joliot/Pages/Entites_de_recherche/NeuroSpin.aspx}{{Neurospin, CEA Saclay}}}
+{\textsc{Ile-de-France, France}} {
+
+\headedsubsection % Job title entry for the current employer
+{Research Engineer}
+{Currently, since Dec 2020}
+{\bodytext{I am working on the \href{https://project.inria.fr/IBC/}{Individual Brain Charting} (IBC) project, a part of the Human Brain Project, that aims at repeatedly scanning a cohort of 12 subjects with a large and varied set of functional protocols to provide an objective basis to inform the definition of brain regions. Towards that regard, apart from carrying out the acquisitions, I have been developing a lot of task-based fMRI experiments spanning across several different target cognitive domains (\href{https://github.com/hbp-brain-charting/public_protocols}{GitHub repo}). In addition, I have also been working on preprocessing all kinds of brain MRI data including structural, functional, quantitative as well as diffusion MRI (\href{https://github.com/hbp-brain-charting/public_analysis_code}{GitHub repo}).}}
+
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{Sinha Lab, IISER Mohali}
+{\textsc{Punjab, India}} {
+
+\headedsubsection % Job title entry for the current employer
+{Masters' thesis}
+{Aug 2019 -- Aug 2020}
+{\bodytext{Provided statistical evidence for the shift of malarial incidence distribution towards higher altitides as a consequence of temperature increase (due to global warming) in high-altitude regions of India. In addition, I also used multiple linear regression to explore the dependance of malaria incidence on temperature and rainfall in a highly humid city of India.}}
+
+\headedsubsection % Job title entry for the current employer
+{Summer Intern}
+{May 2019 -- July 2019}
+{\bodytext{Explored climatic spatial patterns in India using K-Means and principal component analysis (PCA).}}
+
+\headedsubsection % Job title entry for the current employer
+{Volunteer}
+{Jan 2019 -- May 2019}
+{\bodytext{Volunteered to help another masters' thesis student in the lab with decoding analyses of fMRI data. We compared two supervised machine learning algorithms - SVM and LDA using cross-validation for classifying trials when the subjects were viewing colors vs. faces.}}
+
+\headedsubsection % Job title entry for the current employer
+{Summer Intern}
+{June 2017 -- July 2017}
+{\bodytext{Coded difference-equation models to simulate host-parasite metapopulation dynamics and differential-equation models to simulate protein molecular dynamics.}}
+
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{https://home.iitm.ac.in/kraman/lab/}{Raman Lab}, IIT Madras}
+{\textsc{Chennai, India}} {
+
+\headedsubsection % Job title entry for the current employer
+{Summer Intern}
+{May 2018 -- July 2018}
+{\bodytext{Developed a Flask based web-interface for a graph-theoretic algorithm that could identify all possible pathways between given metabolites (\href{https://github.com/man-shu/metquest-front}{GitHub repo}). Further added a feature that could perform reaction knock-outs in-silico.}}
+}
+
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{https://sites.google.com/site/drsamarjitbh/}{Bhattacharyya Lab}, IISER Mohali}
+{\textsc{Punjab, India}} {
+
+\headedsubsection % Job title entry for the current employer
+{Summer Intern}
+{May 2016 -- July 2016}
+{\bodytext{Volunteered in helping with multiple experiments that investigated the trafficking and signaling through metabotropic glutamate receptors (mGluRs) in mice neuronal populations.}}
+}
+
+%------------------------------------------------
+
+\spacedhrule{.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+% %----------------------------------------------------------------------------------------
+% %	INTERESTS SECTION
+% %----------------------------------------------------------------------------------------
+
+\roottitle{Other activities} % Top level section
+\inlineheadsection 
+{Neuromatch Academy (2022):}
+{Interactive coursework in computational neuroscience and project-work on decoding motor behaviour from ECoG neural activity using nilearn, MNE and scikit-learn.}
+
+\inlineheadsection
+{Organization for Human Brain Mapping (OHBM) BrainHack 2022:} 
+{Contributed to nilearn}
+
+\inlineheadsection
+{Society for Mathematical Biology 2020 Annual Meeting:}
+{Presented a poster on “Impact of temperature change on Malaria incidence in high altitude regions of India”.}
+
+\inlineheadsection
+{Web Development Team, INSOMNIA 2018:} 
+{Developed website for annual cultural and science festival of IISER Mohali}
+
+\inlineheadsection
+{Web Development Team, Student Representative Council 2016-17, IISER Mohali:}
+{Developed \\and maintained the website for the student body of IISER Mohali}
+
+\spacedhrule{1.5em}{-0.4em}
+
+\roottitle{Awards / Achievements} % Top level section
+\inlineheadsection 
+{Graduate Aptitude Test 2020:}
+{All India Rank 80}
+
+\inlineheadsection
+{INSPIRE Fellow 2015-2020:}
+{Received scholarship awarded by Government of India for Innovation in Science Pursuit for Inspired Research (INSPIRE)}
+
+\inlineheadsection
+{IIT Madras Summer Fellow 2018:} 
+{Received scholarship awarded by Indian Institute of
+Technology (IIT) Madras for summer research internship}
+
+\inlineheadsection
+{Problem Solving Assessment (PSA) 2013:}
+{Scored over 95 percentile in language convention, quantitative and qualitative reasoning of PSA conducted by Govt. of India.}
+
+
+\spacedhrule{1.5em}{-0.4em}
+
+% %----------------------------------------------------------------------------------------
+% %	INTERESTS SECTION
+% %----------------------------------------------------------------------------------------
+
+\roottitle{Relevant coursework} % Top level section
+\inlineheadsection 
+{Mathematics:}
+{Group Theory and Linear Algebra, Real Analysis, Curves and Surfaces, Probability and Statistics}
+
+\inlineheadsection
+{Interdisciplinary Courses:}
+{Introduction to Computers (Python), Hands-On Electronics, Network Science, Theoretical Biology, Numerical methods, Nonlinear Dynamics, Chaos and Complex Systems, Machine Learning}
+
+\inlineheadsection
+{MOOCs:}
+{Coursera: Fundamental Neuroscience for Neuroimaging and Principles of fMRI 1 \& 2, Harvard MOOC: CS50's Introduction to Computer Science, MIT OCW: Single Variable Calculus}
+
+\spacedhrule{1.5em}{-0.4em}
+
+\end{document}
