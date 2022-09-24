@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.5.24)  24 SEP 2022 12:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.5.24)  24 SEP 2022 12:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/himanshu/Desktop/LaTeXTemplates_cies-cv_v1.1/cv_11.tex
-(/home/himanshu/Desktop/LaTeXTemplates_cies-cv_v1.1/cv_11.tex
+**/home/himanshu/Desktop/cv/cv_11.tex
+(/home/himanshu/Desktop/cv/cv_11.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -26,7 +26,7 @@ File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \@input{structure.aux}
 \openout2 = `structure.aux'.
 
-(/home/himanshu/Desktop/LaTeXTemplates_cies-cv_v1.1/structure.tex (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+(/home/himanshu/Desktop/cv/structure.tex (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -267,7 +267,7 @@ File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count266
 \l__pdf_internal_box=\box91
-) (/home/himanshu/Desktop/LaTeXTemplates_cies-cv_v1.1/cv_11.aux)
+) (/home/himanshu/Desktop/cv/cv_11.aux)
 \openout1 = `cv_11.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -335,7 +335,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 29.
 LaTeX Info: Redefining \pageref on input line 29.
 LaTeX Info: Redefining \nameref on input line 29.
- (/home/himanshu/Desktop/LaTeXTemplates_cies-cv_v1.1/cv_11.out) (/home/himanshu/Desktop/LaTeXTemplates_cies-cv_v1.1/cv_11.out)
+ (/home/himanshu/Desktop/cv/cv_11.out) (/home/himanshu/Desktop/cv/cv_11.out)
 \@outlinefile=\write3
 \openout3 = `cv_11.out'.
 
@@ -430,7 +430,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
  [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
- (/home/himanshu/Desktop/LaTeXTemplates_cies-cv_v1.1/cv_11.aux)
+ (/home/himanshu/Desktop/cv/cv_11.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
 Package rerunfilecheck Info: File `cv_11.out' has not changed.
@@ -439,17 +439,17 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
  ) 
 Here is how much of TeX's memory you used:
  7889 strings out of 480608
- 124797 string characters out of 5903615
+ 124422 string characters out of 5903615
  430473 words of memory out of 5000000
  23621 multiletter control sequences out of 15000+600000
  570151 words of font info for 73 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 39i,5n,46p,888b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,5n,46p,863b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on /home/himanshu/Desktop/LaTeXTemplates_cies-cv_v1.1/cv_11.pdf (2 pages, 184751 bytes).
+Output written on /home/himanshu/Desktop/cv/cv_11.pdf (2 pages, 184797 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
  14337 words of extra memory for PDF output out of 14400 (max. 10000000)
 
